@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request
   push:
-    branches: [ main,zzamir102/passing_tests,anoor012/failing_tests ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
