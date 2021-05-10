@@ -11,6 +11,11 @@ TEST(RectangleConstructor, ZeroParameters) {
 	EXPECT_EQ(test->area(), 8);
 }
 
+TEST(RectangleConstructor, DefaultConstructor) {
+	Rectangle* test = new Rectangle();
+	EXPECT_EQ(test->area(), 0);
+}
+
 TEST(RectangleConstructor, PositiveParameters) {
 	Rectangle* test = new Rectangle(3, 4);
 	EXPECT_EQ(test->area(), 12);	
