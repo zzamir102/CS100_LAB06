@@ -32,3 +32,6 @@ jobs:
 
       - name: Make
         run: make
+
+      - name: Test Executable
+        run: ./test
